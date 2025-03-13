@@ -12,4 +12,6 @@ Entrar em uma Branch -> git checkout nome-da-branch
 
 Dar Push em uma Branch -> git push origin nome-branch
 
-Para desfazer as alterações no arquivo -> git checkout .
+Para desfazer as alterações que não foram adicionados na fila de commit no arquivo -> git checkout .
+
+Para desfazer alterações que já foram adicionados a fila de commit no arquivo -> git reset .
