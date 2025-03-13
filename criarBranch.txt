@@ -11,3 +11,5 @@ Listar Branch's existentes -> git branch
 Entrar em uma Branch -> git checkout nome-da-branch
 
 Dar Push em uma Branch -> git push origin nome-branch
+
+Para desfazer as alterações no arquivo -> git checkout .
