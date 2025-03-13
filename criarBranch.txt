@@ -1,0 +1,17 @@
+Criar uma Branch -> git branch nome-da-branch
+    - Regras de criação de nome da Branch:
+        > Sem acentuação
+        > Sem espaços
+        > Nomes objetivos
+
+Criar uma branch e entrar nela automaticamente -> git checkout -b nome-da-branch
+        
+Listar Branch's existentes -> git branch
+
+Entrar em uma Branch -> git checkout nome-da-branch
+
+Dar Push em uma Branch -> git push origin nome-branch
+
+Para desfazer as alterações que não foram adicionados na fila de commit no arquivo -> git checkout .
+
+Para desfazer alterações que já foram adicionados a fila de commit no arquivo -> git reset .
