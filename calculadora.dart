@@ -1,3 +1,3 @@
 main (){
-    
+    String objeto = 'calculadora'
 }
