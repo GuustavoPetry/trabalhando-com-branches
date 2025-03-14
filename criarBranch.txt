@@ -15,3 +15,18 @@ Dar Push em uma Branch -> git push origin nome-branch
 Para desfazer as alterações que não foram adicionados na fila de commit no arquivo -> git checkout .
 
 Para desfazer alterações que já foram adicionados a fila de commit no arquivo -> git reset .
+
+* Resolvendo conflitos:
+    - Ao alterar um mesmo arquivo no mesmo trecho (linhas) de código, por commits diferentes ou branchs diferentes,
+    um conflito é detectado.
+    - Isso ocorre porque o Git controla para você todas as alterações de código que foram realizadas e mostra o conflito
+    para que você decida o que fazer.
+
+    - No VSCode aparecem algumas opções:
+        - Accept Current Change = aceita a versão do código que já estava presente no branch atual descartando a versão
+        do outro branch
+
+        - Accept Incoming Change = aceita a versão do código que está vindo do outro branch, descartando a versão do branch atual.
+        
+        - Compare Changes = abre uma comparação lado a lado para que você possa analisar as diferenças antes de decidir qual alteração 
+        aceitar
