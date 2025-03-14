@@ -1,4 +1,4 @@
 main (){
     String objeto = 'calculadora'
-    int valor = 150;
+    int valor = 1560;
 }
